@@ -1,0 +1,84 @@
+.c_head{
+    color : white;
+    margin: auto;
+    width : 500px;
+    height : 40px;
+    background-color: deepskyblue;
+    border-radius: 10px 10px 0 0;
+    border : solid 3px deepskyblue;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    line-height: 40px;
+    overflow-y: auto;
+}
+.c_main{
+    margin: auto;
+    width : 500px;
+    height : 400px;
+    border : solid 3px deepskyblue;
+    overflow-y: auto;
+}
+.c_foot{
+    color : white;
+    margin: auto;
+    width : 500px;
+    height : 50px;
+    border : solid 3px deepskyblue;
+    border-radius: 0 0 10px 10px;
+    overflow-y: auto;
+}
+.c_text_box{
+    margin : 2px;
+    width : 80%;
+    height : 90%;
+    border-radius: 0px 0px 10px 10px;
+}
+.c_send{
+    margin : auto;
+    width : 15%;
+    height : 85%;
+    border-radius: 10px 10px 10px 10px;   
+    display: inline-block; 
+    border : deepskyblue;
+    background-color: deepskyblue;
+    -webkit-transition-duration : 0.1s; 
+    color: white;
+}
+.c_send:hover{
+    box-shadow: 2px 2px 10px grey;
+}
+.c_send:active{
+    box-shadow: none;
+}
+.c_in{
+    margin-left: 10px;
+    margin-top: 10px;
+    height : 20px;
+    text-align: left;
+    background-color: red;
+}
+.c_out{
+    margin:10;
+    float: right;
+    max-width: 80%;
+    min-width: 52%;
+    padding: 10;
+    border: solid 3px skyblue;
+    border-radius: 10px;  
+    text-align: right;
+    word-wrap: break-word;
+    background-color: skyblue;
+}
+.c_in{
+    margin:10;
+    float: left;
+    max-width: 80%;
+    min-width: 52%;
+    padding: 10;
+    border: solid 3px lightgreen;
+    border-radius: 10px;  
+    text-align: left;
+    word-wrap: break-word;
+    background-color: lightgreen;
+}
