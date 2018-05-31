@@ -27,7 +27,7 @@ function f_send() {
 
 function f_fetch() {
     if (data == undefined) {
-    var url = "http://samples.openweathermap.org/data/2.5/weather?q=India&appid=b6907d289e10d714a6e88b30761fae22";
+    var url = "https://samples.openweathermap.org/data/2.5/weather?q=India&appid=b6907d289e10d714a6e88b30761fae22";
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
