@@ -53,7 +53,7 @@ function f_receive() {
     
     var icon = document.createElement('img');
     var src = document.createAttribute('src');
-    src.value = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
+    src.value = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
     icon.setAttributeNode(src);
     
     var weather = " " + data.weather[0].main;
